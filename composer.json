@@ -1,0 +1,23 @@
+{
+    "name": "aboustayyef/text",
+    "description": "a utility class that does analysis, summarization and normalization of text.",
+    "license": "MIT",
+    "keywords": ["scraping"],
+    "authors": [
+        {
+            "name": "Mustapha Hamoui",
+            "email": "mustapha@hamoui.com"
+        }
+    ],
+    "require": {
+        "fivefilters/php-readability": "1.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "2.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aboustayyef\\": "src"
+        }
+    }
+}
